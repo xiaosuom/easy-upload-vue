@@ -6,7 +6,17 @@
   "type": "module",
   "author": "zxz <953001542@qq.com> (https://zxz.cool)",
   "license": "MIT",
-  "homepage": "https://github.com/GraciaMeng/use-upload/",
+  "homepage": "https://github.com/xiaosuom/easy-upload-vue",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaosuom/easy-upload-vue"
+  },
+  "keywords": [
+    "frontend",
+    "upload",
+    "vue",
+    "web worker"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "run-p type-check \"build-only {@}\" --",
