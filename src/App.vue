@@ -5,11 +5,9 @@
 <script setup lang="ts"></script>
 
 <style scoped>
-@media (min-width: 1024px) {
-	.wrapper {
-		display: flex;
-		place-items: flex-start;
-		flex-wrap: wrap;
-	}
+.wrapper {
+	display: flex;
+	place-items: flex-start;
+	flex-wrap: wrap;
 }
 </style>
