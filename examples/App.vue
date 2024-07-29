@@ -1,13 +1,13 @@
 <template>
 	<div class="wrapper">
-		<EUpload>
+		<EasyUpload>
 			<button>上传</button>
-		</EUpload>
+		</EasyUpload>
 	</div>
 </template>
 
 <script setup lang="ts">
-import EUpload from '../packages/EUpload.vue';
+import EasyUpload from '../packages/EasyUpload.vue';
 </script>
 
 <style scoped>

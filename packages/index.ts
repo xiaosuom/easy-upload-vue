@@ -1,6 +1,9 @@
-import EUpload from './EUpload.vue';
+import EasyUpload from './EasyUpload.vue';
 
-EUpload.install = (Vue) => {
-	Vue.component(EUpload.name, EUpload);
+EasyUpload.name = 'easy-upload';
+
+EasyUpload.install = (Vue: any) => {
+	Vue.component(EasyUpload.name, EasyUpload);
 };
-export default EUpload;
+
+export default EasyUpload;

@@ -17,6 +17,18 @@
     "vue",
     "web worker"
   ],
+  "files": [
+    "dist"
+  ],
+  "main": "dist/easy-upload-vue.umd.js",
+  "module": "dist/easy-upload-vue.es.js",
+  "exports": {
+    "./lib/style.css": "./dist/style.css",
+    ".": {
+      "import": "./dist/easy-upload-vue.es.js",
+      "require": "./dist/easy-upload-vue.umd.js"
+    }
+  },
   "scripts": {
     "dev": "vite",
     "build": "run-p type-check \"build-only {@}\" --",
